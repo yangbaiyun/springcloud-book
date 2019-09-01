@@ -1,6 +1,6 @@
 package com.forezp;
 
-import com.forezp.rabbit.Sender;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class LogServiceApplicationTests {
 
-	@Test
+	/*@Test
 	public void contextLoads() {
 	}
 
@@ -23,6 +23,6 @@ public class LogServiceApplicationTests {
 	@Test
 	public void hello() throws Exception {
 		sender.send();
-	}
+	}*/
 
 }
